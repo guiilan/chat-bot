@@ -1,0 +1,27 @@
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+button{
+    padding: 1rem 4rem 1rem;
+    border: none;
+    background-color: teal;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: indigo;
+    opacity: 0.5;
+    color: white;
+}
+
+#open{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
