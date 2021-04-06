@@ -10,8 +10,19 @@ export default function Header(){
                     <img src={MenuIcon} alt="Icone do Menu" />
                 </button>
             </div>
-            <h2></h2>
-            <p>Um novo jeito de conectar pessoas</p>
+            <div className="content-container">
+                <h2>Um novo jeito de conectar pessoas</h2>
+                <p>Unindo vidas e conectando pessoas</p>
+                <div className="buttons-container">
+                    <button className="left-button">
+                        Get Started
+                    </button>
+                    <button className="righ-buttont">
+                        See More
+                    </button>
+                </div>
+
+            </div>
         </div>
     )
 }
