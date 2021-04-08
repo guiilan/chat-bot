@@ -2,6 +2,7 @@ import './style.css'
 import MenuIcon from '../../images/image-header/menu.svg'
 import MenuMobile from './menumobile'
 import Arrow from '../../images/image-header/arrow.svg'
+import MenuDesktop from './menudesktop'
 import useMediaQuery from '@material-ui/core/useMediaQuery'
 import { useState } from 'react'
 
@@ -25,6 +26,14 @@ export default function Header(){
                 <button className="menu-button" onClick={openMenu}>
                     <img src={MenuIcon} alt="Icone do Menu" />
                 </button>
+                {
+                mediaMin > mediaMax ?
+                    null
+                    :
+                    <div className="container-menu-desktop">
+                        <MenuDesktop />
+                    </div>
+                }
             </div>
             { active === true && mediaMin > mediaMax ?
                 <div className="menu-mobile-active">

@@ -85,11 +85,21 @@
 
     .menu-mobile-active{
         width: 83%;
+        margin: 0 auto;
         margin-top: 2rem;
         position: absolute;
+        justify-content: center;
     }
 }
 
-@media screen and(min-width: 992px){
-    
+@media screen and (min-width: 992px){
+    .container-menu button{
+        display: none;
+    }
+
+    .container-menu{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
 }
