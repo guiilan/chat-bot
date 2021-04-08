@@ -4,6 +4,7 @@
     .menu-desktop-container a{
         margin-left: 2rem;
         cursor: pointer;
+        align-items: baseline;
     }
 
 }

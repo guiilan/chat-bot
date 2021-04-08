@@ -5,6 +5,7 @@ import Arrow from '../../images/image-header/arrow.svg'
 import MenuDesktop from './menudesktop'
 import useMediaQuery from '@material-ui/core/useMediaQuery'
 import { useState } from 'react'
+import ImageBackogrund from '../../images/image-header/header-background.png'
 
 export default function Header(){
 
@@ -21,6 +22,9 @@ export default function Header(){
     return(
         
         <div className="header-container">
+            <div className="container-image-header">
+                
+            </div>
             <div className="container-menu">
                 <h2>iSocial</h2>
                 <button className="menu-button" onClick={openMenu}>
@@ -30,7 +34,7 @@ export default function Header(){
                 mediaMin > mediaMax ?
                     null
                     :
-                    <div className="container-menu-desktop">
+                    <div>
                         <MenuDesktop />
                     </div>
                 }
