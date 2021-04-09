@@ -1,0 +1,70 @@
+@import '../../global.css';
+
+
+@media screen and (min-width: 370px) {
+    .container-content{
+        padding: 1.5rem;
+        width: 100%;
+        text-align: center;
+        font-family: 'Overpass', sans-serif;
+    }
+
+    .container-content h2{
+        font-weight: bold;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    #computer{
+        max-width: 100%;
+        margin-left: -12rem;
+    }
+
+    #mobile{
+        max-width: 100%;
+        margin-bottom: -2rem;
+    }
+
+    .container-content p{
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container-content{
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+    }
+    .firt-content-container{
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 1rem;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #computer{
+        max-width: 100%;
+        margin-left: 0rem;
+    }
+    
+    .firt-content-container p {
+        margin-left: 0;
+        width: 50rem;
+        text-align: center;
+    }
+
+    .last-content-container{
+        display: flex;
+
+        font-size: 1rem;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}

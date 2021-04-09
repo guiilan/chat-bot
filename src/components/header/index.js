@@ -5,13 +5,12 @@ import Arrow from '../../images/image-header/arrow.svg'
 import MenuDesktop from './menudesktop'
 import useMediaQuery from '@material-ui/core/useMediaQuery'
 import { useState } from 'react'
-import ImageBackogrund from '../../images/image-header/header-background.png'
 
 export default function Header(){
 
     const[active, setActive] = useState(false);
     const mediaMin = useMediaQuery('(min-width:370px)');
-    const mediaMax = useMediaQuery('(min-width:970px)');
+    const mediaMax = useMediaQuery('(min-width:992px)');
 
 
     function openMenu(){
