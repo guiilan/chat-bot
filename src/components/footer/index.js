@@ -9,7 +9,7 @@ export default function Footer(){
                 <a>About More</a>
                 <a>Contact</a>
             </nav>
-            <p>© iSocial por Guilherme Ilan</p>
+            <p>© iSocial por Guilherme Ilan and Paulo Gabriel</p>
         </div>
     )
 }

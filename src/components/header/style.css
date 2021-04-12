@@ -20,7 +20,7 @@
         flex-direction: column;
         width: 100%;
         height: 35rem;
-        background-image: linear-gradient(to bottom,  rgb(90, 90, 226) ,var(--background-color));
+        background-image: linear-gradient(to bottom, var(--background-color), rgb(83, 161, 250));
         border-bottom-left-radius: 5rem;
         padding: 2rem;
         font-family: 'Open sans', sans-serif;

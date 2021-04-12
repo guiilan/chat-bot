@@ -5,14 +5,15 @@
 }
 
 body{
-    font-size: 10px;
+    font-size: 62.5%;
 }
 
 
 :root{
-    --background-color: #74b9ff;
+    --background-color: #5368df;
     --background-menu-mobile: #ffffff;
     --text-color-light: #dfe6e9;
     --text-color-dark: #2d3436;
+    --text-color-gray : #9194a1;
     --background-footer: #25252d;
 }
